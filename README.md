@@ -122,7 +122,7 @@ late deliveries). Urgent for transactional or time-sensitive requests (account a
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/customer-support-evaluator
+git clone https://github.com/bemmtva/customer-support-evaluator.git
 cd customer-support-evaluator
 python -m venv venv
 source venv/bin/activate
