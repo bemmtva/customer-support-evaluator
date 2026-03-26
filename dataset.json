@@ -1,0 +1,42 @@
+[
+  {
+    "complaint": "I ordered a blue sweater in size medium on the 15th and it's been 2 weeks with no tracking update. Your website says it should arrive in 5-7 business days. This is ridiculous!",
+    "category": "late_delivery"
+  },
+  {
+    "complaint": "Received my order today but the dress is a size 8 when I clearly ordered a size 6. I need this for an event this weekend, can you please send the correct size immediately?",
+    "category": "wrong_item"
+  },
+  {
+    "complaint": "The kitchen blender arrived completely shattered. Glass pieces were everywhere when I opened the box. I'd like a full refund or replacement ASAP.",
+    "category": "damaged_item"
+  },
+  {
+    "complaint": "I returned my boots 3 weeks ago and haven't seen the refund yet. My bank account still shows the charge. Order #789456 - please look into this.",
+    "category": "refund_request"
+  },
+  {
+    "complaint": "Hi, I'm trying to log into my account but keep getting an error message saying 'invalid credentials.' I've reset my password twice and it's still not working. I can't access my order history.",
+    "category": "account_issue"
+  },
+  {
+    "complaint": "Wrong item shipped - I ordered black Nike shoes but received white Adidas instead. Both are worth about the same, but I needed the Nikes specifically. What do I do?",
+    "category": "wrong_item"
+  },
+  {
+    "complaint": "My package was supposed to arrive yesterday but the tracking hasn't updated since it left the warehouse 5 days ago. Where is my order? This is unacceptable.",
+    "category": "late_delivery"
+  },
+  {
+    "complaint": "The phone case I ordered came with a huge crack down the middle. It's unusable. I'd like a refund since I can't use this product at all.",
+    "category": "damaged_item"
+  },
+  {
+    "complaint": "I purchased 2 items but was charged 3 times - my credit card shows three identical charges of $47.99 from yesterday. This was a mistake and I need this fixed immediately.",
+    "category": "account_issue"
+  },
+  {
+    "complaint": "Ordered the winter jacket but received a summer shirt instead. Not only is this the wrong item, but I've already had to wait 10 days for delivery. I'm frustrated and want a proper resolution.",
+    "category": "wrong_item"
+  }
+]

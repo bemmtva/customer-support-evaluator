@@ -1,0 +1,332 @@
+[
+  {
+    "complaint": "I ordered a blue sweater in size medium on the 15th and it's been 2 weeks with no tracking update. Your website says it should arrive in 5-7 business days. This is ridiculous!",
+    "category": "late_delivery",
+    "personas": {
+      "professional": {
+        "response": "Dear Valued Customer,\n\nI sincerely apologize for the delay and frustration this has caused. A two-week wait without tracking updates is unacceptable.\n\nPlease provide your order number so I can immediately investigate the shipment status. I will either locate your package or initiate a replacement at no cost.\n\nThank you for your patience. I am committed to resolving this promptly.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 8,
+          "accuracy": 9,
+          "resolution": 9,
+          "reasoning": "The response appropriately acknowledges the customer's frustration with professional empathy, directly addresses the delivery delay concern, and provides clear actionable steps (requesting order number) with a concrete solution path (locate or replace)."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand your frustration\u2014waiting two weeks past the promised delivery window is absolutely unacceptable, and you have every right to be upset.\n\nLet me help you right away. Can you provide your order number? I'll investigate where your sweater is and either locate it or get you a replacement shipped immediately. \n\nYou shouldn't have been left in the dark this long, and I'm committed to making this right for you.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 8,
+          "resolution": 8,
+          "reasoning": "The response excellently acknowledges the customer's frustration with validating language, accurately addresses the delivery delay issue, and provides clear next steps, though it could have proactively offered compensation or more specific resolution options."
+        }
+      },
+      "urgent": {
+        "response": "I'm pulling your order now. Give me your order number or the email on the account.\n\nOnce I have it, I'll:\n1. Check actual shipping status\n2. File a trace with the carrier immediately if it's stuck\n3. Either expedite a replacement or issue a refund\n\nWhat's your order number?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 9,
+          "resolution": 8,
+          "reasoning": "The response is action-oriented and provides clear next steps with relevant solutions, but lacks any acknowledgment of the customer's frustration or disappointment about the delayed order, which diminishes the empathetic connection even for an urgent persona."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "Received my order today but the dress is a size 8 when I clearly ordered a size 6. I need this for an event this weekend, can you please send the correct size immediately?",
+    "category": "wrong_item",
+    "personas": {
+      "professional": {
+        "response": "Dear Valued Customer,\n\nThank you for notifying us of this sizing discrepancy. I sincerely apologize for this error.\n\nI will immediately initiate an expedited replacement of the correct size 6 dress. To proceed, I require your order number and confirmation of your delivery address.\n\nGiven your weekend event, I will ensure priority processing with expedited shipping at no additional charge. Please reply with the necessary details so we may resolve this promptly.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 9,
+          "resolution": 8,
+          "reasoning": "The response appropriately acknowledges the error with professional empathy, directly addresses the sizing issue and time constraint, and provides a clear solution path, though it requires customer action before resolution can be completed."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014especially with your event coming up so soon! That's a stressful situation, and I'm sorry we got this wrong.\n\nHere's what I can do: I'll prioritize a size 6 shipment to you right away with expedited delivery. We can arrange a prepaid return label for the size 8 so there's no hassle on your end.\n\nCan you confirm your email so I can get this started immediately? We'll get you sorted before the weekend. \ud83d\udc99",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 9,
+          "reasoning": "The response excellently acknowledges the customer's stress and time pressure, directly addresses the sizing error with a concrete solution (expedited replacement with prepaid return), and provides clear next steps, only slightly hampered by requesting information that should already be available in the customer's account."
+        }
+      },
+      "urgent": {
+        "response": "I'm escalating this now. Here's what I'm doing:\n\n1. **Shipping the size 6 today** via overnight express \u2014 no charge\n2. **Prepaid return label** for the size 8 (drop it off anytime next week)\n3. **$15 account credit** for the inconvenience\n\nYou'll have the correct size by Friday. Check your email in 10 minutes for tracking.\n\nNeed anything else to make this work?",
+        "scores": {
+          "empathy": 6,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response excellently addresses the problem with immediate, concrete solutions and perfect accuracy, though it could show slightly more emotional acknowledgment of the customer's stress about the upcoming event despite maintaining an appropriately urgent persona."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "The kitchen blender arrived completely shattered. Glass pieces were everywhere when I opened the box. I'd like a full refund or replacement ASAP.",
+    "category": "damaged_item",
+    "personas": {
+      "professional": {
+        "response": "I sincerely apologize for this unacceptable delivery condition. I understand your concern regarding the damaged blender.\n\nI am prepared to assist you immediately with either a full refund or a replacement unit, whichever you prefer. To proceed, please provide your order number and a photo of the damaged item if possible.\n\nOnce received, I will process your request within 24 business hours. For safety, please dispose of the glass carefully and avoid contact with broken pieces.\n\nThank you for your patience. We value your business.",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 9,
+          "resolution": 9,
+          "reasoning": "The response professionally addresses the complaint with appropriate empathy, directly offers the requested solutions (refund or replacement), and provides clear next steps, though the empathy could be slightly warmer given the safety concern involved."
+        }
+      },
+      "empathetic": {
+        "response": "I'm so sorry this happened\u2014that's genuinely frustrating, and I completely understand your concern, especially with broken glass involved. Safety first: please be careful cleaning up those pieces.\n\nHere's what I'll do right now: I'm issuing an immediate replacement with expedited shipping at no extra cost. If you'd prefer a refund instead, I can absolutely process that today too.\n\nWhich works better for you? Either way, we'll make this right. And if you need any help with cleanup or have safety concerns, just let me know.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response excellently acknowledges the customer's frustration with genuine empathy, directly addresses both refund and replacement options requested, and provides immediate, clear actionable solutions with customer choice."
+        }
+      },
+      "urgent": {
+        "response": "I'm issuing a replacement immediately. New blender ships today with expedited delivery\u2014arrives in 2-3 days. You'll get a prepaid return label via email within the hour for the damaged unit.\n\nIf you prefer a refund instead, I can process that now\u2014full amount back within 24 hours. No return required for safety reasons.\n\nWhich works better for you: replacement or refund?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response provides excellent, immediate solutions with clear options and timelines, but lacks any acknowledgment of the customer's frustration or inconvenience from receiving a shattered product."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "I returned my boots 3 weeks ago and haven't seen the refund yet. My bank account still shows the charge. Order #789456 - please look into this.",
+    "category": "refund_request",
+    "personas": {
+      "professional": {
+        "response": "Dear Valued Customer,\n\nThank you for bringing this matter to our attention. I sincerely apologize for the delay in processing your refund for Order #789456.\n\nI will immediately investigate the status of your returned boots and expedite the refund. Please allow 5-7 business days from processing confirmation for the credit to appear in your account, as banking systems require this timeframe.\n\nI will personally follow up with you within 24 hours with a resolution update.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 8,
+          "resolution": 7,
+          "reasoning": "The response appropriately acknowledges the issue with professional empathy and addresses the refund concern, but could be stronger by confirming receipt of the return first and providing more specific investigation details rather than generic timelines."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014waiting three weeks with the charge still showing is really stressful. Let me help you get this resolved right away.\n\nI'm looking into order #789456 now. Returns typically process within 5-7 business days after we receive them, so we should absolutely have an update for you. Can you tell me the return tracking number or approximate delivery date to our warehouse? That'll help me pinpoint exactly where your refund is in the process.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 8,
+          "resolution": 7,
+          "reasoning": "The response demonstrates strong empathy and acknowledges the customer's frustration appropriately, addresses the core refund issue with relevant timeline information, but could be more proactive by offering to investigate immediately rather than requesting additional information the company should already have access to."
+        }
+      },
+      "urgent": {
+        "response": "I'm pulling up order #789456 now.\n\nRefunds typically process 5-7 business days after we receive returned items. At 3 weeks, something's off.\n\nTwo possibilities:\n1. The return didn't scan into our system yet\n2. The refund processed but your bank is holding it\n\nI'm checking our warehouse records right now. Can you confirm:\n- Did you get a return confirmation email with a tracking number?\n- What's your return shipping carrier?\n\nI'll escalate this immediately if the return isn't logged.",
+        "scores": {
+          "empathy": 6,
+          "accuracy": 9,
+          "resolution": 7,
+          "reasoning": "The response efficiently addresses the issue with accurate information and diagnostic questions, but lacks emotional acknowledgment of the customer's frustration about waiting 3 weeks for their money, and stops short of committing to a definitive resolution timeline."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "Hi, I'm trying to log into my account but keep getting an error message saying 'invalid credentials.' I've reset my password twice and it's still not working. I can't access my order history.",
+    "category": "account_issue",
+    "personas": {
+      "professional": {
+        "response": "Dear Customer,\n\nThank you for contacting us. I understand your login difficulties are frustrating, especially after multiple password resets.\n\nPlease try the following steps:\n1. Clear your browser cache and cookies\n2. Use an incognito/private window to attempt login\n3. Verify the email address associated with your account is correct\n\nIf the issue persists, I recommend contacting our technical support team directly at support@company.com or calling our helpline. They can verify your account status and resolve access issues promptly.\n\nWe appreciate your patience.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 8,
+          "resolution": 6,
+          "reasoning": "The response appropriately acknowledges frustration and provides relevant troubleshooting steps, but ultimately deflects to another team rather than offering direct resolution or account-specific investigation."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014especially when you've already tried resetting twice. That's really annoying when you just need to check your orders.\n\nLet's get this sorted for you. Can you tell me:\n- What error message appears exactly?\n- Are you using the same email you signed up with?\n- Have you tried clearing your browser cache?\n\nIf those don't work, I can manually verify your account and get you access right away. You shouldn't have to jump through hoops to see your own order history. We'll fix this! \ud83d\udc99",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 8,
+          "resolution": 8,
+          "reasoning": "The response excellently acknowledges the customer's frustration with warm, validating language, asks relevant diagnostic questions, and offers both self-service troubleshooting steps and a manual resolution path, though it could have been more specific about timelines or alternative access methods."
+        }
+      },
+      "urgent": {
+        "response": "Clearing browser cache now solves this for most users \u2014 try that first.\n\nIf that doesn't work:\n1. Use incognito/private browsing to rule out cache issues\n2. Verify you're using the email tied to your account (not a phone number)\n3. Wait 15 minutes after password reset \u2014 changes need time to sync\n\nStill stuck? I'll manually reset your account. Need your email address to pull it up and fix this immediately.",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 8,
+          "resolution": 9,
+          "reasoning": "The response provides highly actionable technical solutions and a clear escalation path, but lacks acknowledgment of the customer's frustration despite multiple failed password reset attempts."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "Wrong item shipped - I ordered black Nike shoes but received white Adidas instead. Both are worth about the same, but I needed the Nikes specifically. What do I do?",
+    "category": "wrong_item",
+    "personas": {
+      "professional": {
+        "response": "I sincerely apologize for this shipping error. We will resolve this immediately.\n\nPlease reply with your order number and a photo of the received item. We will:\n\n1. Arrange a prepaid return label for the Adidas shoes\n2. Ship your correct black Nike shoes via expedited delivery at no charge\n3. Process a refund if you prefer not to exchange\n\nThis typically takes 5-7 business days. We value your business and appreciate your patience.\n\nHow would you like to proceed?",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response professionally acknowledges the error with an apology, directly addresses the shipping mistake with accurate solutions including exchange and refund options, and provides clear actionable steps with specific timelines."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014you ordered something specific and got something completely different. That's not okay.\n\nHere's what we'll do: I can arrange a free return for the Adidas and ship the correct black Nikes to you right away. You won't pay for either shipment.\n\nCould you provide your order number? I'll prioritize getting those Nikes to you ASAP. And again, I'm really sorry for the mix-up.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 9,
+          "reasoning": "The response excellently acknowledges the customer's frustration with appropriate empathy, directly addresses the wrong item issue with a clear solution (free return and replacement), and provides actionable next steps, only missing minor details like timeline expectations."
+        }
+      },
+      "urgent": {
+        "response": "Here's what happens now:\n\n1. **Return label incoming** \u2014 I'm emailing you a prepaid shipping label right now.\n2. **Ship back the Adidas** \u2014 drop it off at any carrier location.\n3. **We'll send correct Nikes** \u2014 once we receive your return, I'm prioritizing your replacement shipment for 2-day delivery.\n\nNo refund delay, no back-and-forth. You'll have the right shoes within a week.\n\nConfirmation email coming to you in the next 2 minutes. Anything else blocking this?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 9,
+          "resolution": 10,
+          "reasoning": "The response provides an excellent, actionable solution with clear steps and addresses the wrong item issue accurately, but lacks acknowledgment of the customer's inconvenience or frustration despite the 'Urgent' persona being action-focused rather than emotion-focused."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "My package was supposed to arrive yesterday but the tracking hasn't updated since it left the warehouse 5 days ago. Where is my order? This is unacceptable.",
+    "category": "late_delivery",
+    "personas": {
+      "professional": {
+        "response": "Thank you for bringing this matter to our attention. I sincerely apologize for the delay and lack of tracking updates on your order.\n\nI would be happy to investigate this immediately. To locate your package and determine the cause of the delay, please provide your order number. Once I have this information, I will contact our logistics partner and provide you with a comprehensive update within 24 hours.\n\nWe appreciate your patience and will resolve this promptly.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 7,
+          "accuracy": 8,
+          "resolution": 6,
+          "reasoning": "The response appropriately acknowledges the issue with professional empathy and addresses the tracking concern, but requires the customer to provide information they likely already submitted and delays resolution by 24 hours when they're already frustrated about a 5-day delay."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand your frustration \u2014 waiting for a package is stressful, especially when tracking goes silent. That's definitely not the experience we want for you.\n\nLet me help track this down right away. I'll need your order number to investigate where your package is and what's happened since it left our warehouse.\n\nOnce you share that, I can check with our logistics partner and get you real answers about the delay. We'll make this right.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 8,
+          "resolution": 7,
+          "reasoning": "The response excellently acknowledges the customer's frustration with genuine empathy, accurately addresses the tracking and delivery concerns, but relies on the customer to provide information before offering concrete solutions rather than proactively investigating with available data."
+        }
+      },
+      "urgent": {
+        "response": "I'm checking your order status now. To pull up your package immediately, I need:\n\n**Order number or email address tied to the account.**\n\nOnce you provide that, I can:\n- Contact the carrier directly for real-time location data\n- File a trace request if it's stuck in transit\n- Issue a replacement or refund if it's lost\n\nThe 5-day gap without updates suggests a carrier delay, not a warehouse issue. We'll know exactly what's happening in the next 2 minutes.\n\nWhat's your order number?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 8,
+          "resolution": 9,
+          "reasoning": "The response is highly action-oriented and provides clear next steps with specific solutions, but lacks emotional acknowledgment of the customer's frustration despite them explicitly stating the situation is 'unacceptable.'"
+        }
+      }
+    }
+  },
+  {
+    "complaint": "The phone case I ordered came with a huge crack down the middle. It's unusable. I'd like a refund since I can't use this product at all.",
+    "category": "damaged_item",
+    "personas": {
+      "professional": {
+        "response": "Thank you for contacting us, and I sincerely apologize for receiving a defective phone case.\n\nI understand your frustration with this damaged product. We are committed to resolving this immediately. Please reply with your order number, and I will process either a replacement or refund\u2014whichever you prefer. We may also request photos of the damage for our quality assurance records.\n\nYou can expect resolution within 2-3 business days.\n\nThank you for your patience.",
+        "scores": {
+          "empathy": 8,
+          "accuracy": 9,
+          "resolution": 9,
+          "reasoning": "The response appropriately acknowledges the customer's frustration, directly addresses the defective product issue with clear next steps, and offers both refund and replacement options as requested, though it could be slightly more emphatic given the product was completely unusable."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014you paid for a quality product and received a damaged one. That's not okay, and I'm sorry that happened.\n\nHere's what I can do for you right away: I'll process a full refund immediately. You won't even need to return the cracked case. \n\nCould you reply with your order number? Once I have that, I'll get this sorted within the next few minutes.\n\nWe'll make this right. \ud83d\udc99",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response excellently acknowledges the customer's frustration, directly addresses the refund request with a generous no-return policy, and provides clear next steps requiring only the order number."
+        }
+      },
+      "urgent": {
+        "response": "Issuing a full refund now. No return needed.\n\nYou'll see the credit back to your original payment method within 1-3 business days depending on your bank.\n\nWant a replacement sent out instead? If yes, I can expedite a new case at no cost\u2014arrives in 2-3 days while your refund processes.\n\nWhich works better?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 9,
+          "resolution": 10,
+          "reasoning": "While the response excellently addresses the problem with immediate action and clear options, it lacks any acknowledgment of the customer's frustration or disappointment about receiving a damaged product, even within an urgent persona framework."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "I purchased 2 items but was charged 3 times - my credit card shows three identical charges of $47.99 from yesterday. This was a mistake and I need this fixed immediately.",
+    "category": "account_issue",
+    "personas": {
+      "professional": {
+        "response": "Dear Valued Customer,\n\nThank you for bringing this matter to our attention. I sincerely apologize for the duplicate charges on your account.\n\nI understand you were charged three times ($47.99 each) for a two-item purchase. This is clearly an error on our system, and I assure you we will resolve this promptly.\n\nPlease provide your order number so I can investigate immediately and initiate refunds for the two duplicate charges. You should expect the refunds within 3-5 business days.\n\nI appreciate your patience and will prioritize this matter.\n\nBest regards,\nCustomer Support Team",
+        "scores": {
+          "empathy": 8,
+          "accuracy": 9,
+          "resolution": 8,
+          "reasoning": "The response appropriately acknowledges the error with professional empathy, accurately identifies the billing issue and refund needed, and provides clear next steps though it places some burden on the customer to provide information before resolution can proceed."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand how frustrating this must be\u2014that's absolutely not okay, and I'm sorry you're dealing with this. Three charges for one order is clearly an error on our end.\n\nHere's what I'll do right now:\n1. I'm pulling up your order details to confirm exactly what happened\n2. I'll immediately flag those duplicate charges for refund processing\n3. You should see credits back to your card within 3-5 business days\n\nCan you share your order number or the email associated with your account? I want to make sure we get this resolved for you without any more back-and-forth.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 8,
+          "resolution": 7,
+          "reasoning": "The response demonstrates strong empathy and acknowledges the customer's frustration appropriately, accurately identifies the issue and addresses the complaint, but the resolution could be stronger as it requests information before taking action rather than providing immediate confirmation of refund processing."
+        }
+      },
+      "urgent": {
+        "response": "Processing refund for the two duplicate charges right now.\n\n**What I'm doing:**\n- Issuing $95.98 credit back to your card immediately\n- Flagging your order to prevent further charges\n- This refund hits your account within 1-2 business days\n\n**Your order:**\n- 2 items ship as normal\n- You're only out $47.99 total\n\nCheck your email in 5 minutes for the refund confirmation. Your card statement will show the reversal within 48 hours.\n\nNeed anything else?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response provides an accurate, complete solution with clear next steps, but lacks empathetic acknowledgment of the customer's frustration despite the 'Urgent' persona requiring immediate action over emotional validation."
+        }
+      }
+    }
+  },
+  {
+    "complaint": "Ordered the winter jacket but received a summer shirt instead. Not only is this the wrong item, but I've already had to wait 10 days for delivery. I'm frustrated and want a proper resolution.",
+    "category": "wrong_item",
+    "personas": {
+      "professional": {
+        "response": "I sincerely apologize for this error and the inconvenience caused. This is unacceptable, and I understand your frustration completely.\n\n**Here is how we will resolve this:**\n1. I will immediately arrange return shipping for the incorrect item at no cost to you.\n2. Your winter jacket will be expedited and shipped within 24 hours.\n3. You will receive a $15 courtesy credit as compensation for the delay and inconvenience.\n\nPlease confirm your preferred return method, and I will process this today.\n\nRespectfully,\nCustomer Support Team",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 9,
+          "reasoning": "The response excellently acknowledges the customer's frustration with appropriate empathy, directly addresses both the wrong item and delay issues, and provides a clear three-step resolution with specific actions and compensation, only slightly lacking in confirming the customer's shipping address for the correct item."
+        }
+      },
+      "empathetic": {
+        "response": "I completely understand your frustration\u2014waiting 10 days only to receive the wrong item is genuinely disappointing. You deserved better.\n\nHere's what we'll do right away:\n\n1. **Immediate replacement**: I'm expediting your winter jacket with priority shipping at no extra cost\n2. **Return shipping**: We'll email you a prepaid return label for the summer shirt\n3. **Compensation**: I'm adding a $15 credit to your account for this inconvenience\n\nYou should receive your jacket within 3-5 days. I'm truly sorry for this mix-up\u2014let's make it right.",
+        "scores": {
+          "empathy": 9,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response excellently acknowledges the customer's frustration with genuine empathy, directly addresses both the wrong item and delayed delivery issues, and provides a comprehensive three-part solution with clear timelines and actionable steps."
+        }
+      },
+      "urgent": {
+        "response": "Got it. Here's what I'm doing now:\n\n1. **Shipping a winter jacket to you today** \u2014 expedited, no extra charge.\n2. **Return label for the summer shirt** \u2014 emailed to you in 2 minutes.\n3. **$15 account credit** for the shipping delay and inconvenience.\n\nThe jacket ships within 2 hours. You'll have tracking within the hour.\n\nNeed anything else to make this right?",
+        "scores": {
+          "empathy": 4,
+          "accuracy": 10,
+          "resolution": 10,
+          "reasoning": "The response provides an excellent, comprehensive solution with clear actions and timelines, but lacks emotional acknowledgment of the customer's frustration despite being appropriate for an urgent persona."
+        }
+      }
+    }
+  }
+]
